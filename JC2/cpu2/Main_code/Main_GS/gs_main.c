@@ -43,10 +43,8 @@ GROUND STATION RADIO PROFILE
 const RadioConfig_t GroundStationProfile =
 {
     /* Ground station transmit frequency, satellite uplink receiver */
-    .txFrequency = 868000000UL,
-
-    /* Ground station receive frequency, satellite downlink transmitter */
-    .rxFrequency = 868000000UL,
+    .txFrequency = 437375000UL,
+    .rxFrequency = 435000000UL,
 
     /* AX25 address */
     .sourceCallsign = "GROUND",
